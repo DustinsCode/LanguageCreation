@@ -4,6 +4,7 @@
 %}
 %option noyywrap
 %option yylineno
+%option caseless
 %%
 
 (end)           {return(END);}
@@ -20,6 +21,6 @@
                   return(FLOAT);
                 }
 [\t\n ]         ;
-.               {printf("Syntax error, my dude.");}
+.               {printf("Syntax error, my dude.\n");}
 
 %%
