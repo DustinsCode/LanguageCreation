@@ -1,4 +1,9 @@
 %{
+    /**
+    * Parser for ZoomJoyStrong language for CIS 343
+    *
+    * @author Dustin Thurston
+    */
     #include <stdio.h>
     #include <stdlib.h>
     #include "zoomjoystrong.h"

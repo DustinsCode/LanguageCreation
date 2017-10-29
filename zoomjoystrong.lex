@@ -1,4 +1,9 @@
 %{
+    /**
+    * Lexer for ZoomJoyStrong language for CIS 343
+    *
+    * @author Dustin Thurston
+    **/
     #include <stdio.h>
     #include "zoomjoystrong.tab.h"
 %}
